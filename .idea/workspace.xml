@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74d1c2a0-8d5c-4282-a566-95086369028a" name="Default Changelist" comment="" />
+    <list default="true" id="74d1c2a0-8d5c-4282-a566-95086369028a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fwhtTQm0bSLH7snRg3oeD7jrww" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -20,6 +28,19 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597135278033</updated>
       <workItem from="1597135279183" duration="342000" />
+      <workItem from="1597135628533" duration="128000" />
     </task>
     <servers />
   </component>
@@ -40,9 +62,21 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="760" y="274" key="#Project_Structure/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597135280190" />
+    <state x="522" y="597" key="Github.ShareDialog" timestamp="1597135706443">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="522" y="597" key="Github.ShareDialog/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597135706443" />
+    <state x="382" y="404" key="Github.UntrackedFilesDialog" timestamp="1597135713166">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="382" y="404" key="Github.UntrackedFilesDialog/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597135713166" />
     <state x="19" y="309" key="new project wizard" timestamp="1597135612008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="19" y="309" key="new project wizard/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597135612008" />
+    <state x="311" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1597135695410">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="311" y="319" width="672" height="678" key="search.everywhere.popup/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597135695410" />
   </component>
 </project>
