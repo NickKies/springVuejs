@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74d1c2a0-8d5c-4282-a566-95086369028a" name="Default Changelist" comment="08. Destructuring">
+    <list default="true" id="74d1c2a0-8d5c-4282-a566-95086369028a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter01/ES6/02.ES6Classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/ES6/02.ES6Classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/MessagesApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/MessagesApp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -28,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -36,7 +38,23 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KYS\Documents\webProgramming\springVuejs\Chapter02\MessagesApp" />
+    </key>
+  </component>
   <component name="RunManager" selected="Node.js.01.ES6BlockScoping,letAndConst.js">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="01.ES6BlockScoping,letAndConst.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Chapter01/ES6/01.ES6BlockScoping,letAndConst.js" working-dir="$PROJECT_DIR$/Chapter01/ES6">
       <method v="2" />
     </configuration>
@@ -88,7 +106,7 @@
       <workItem from="1599386590640" duration="189000" />
       <workItem from="1599451104830" duration="645000" />
       <workItem from="1599626400395" duration="662000" />
-      <workItem from="1606698001577" duration="2990000" />
+      <workItem from="1606698001577" duration="7787000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1597135767861</created>
@@ -216,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599626460149</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="다까묵었다.. 다시 시작..">
+      <created>1606704232975</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606704232975</updated>
+    </task>
+    <task id="LOCAL-00020" summary="하면서 익혀보자 vue instance부터 시작!">
+      <created>1606709690912</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606709690912</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,102 +273,30 @@
     <MESSAGE value="08. Destructuring" />
     <MESSAGE value="09. Template" />
     <MESSAGE value="10. Promise" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. Promise" />
+    <MESSAGE value="다까묵었다.. 다시 시작.." />
+    <MESSAGE value="하면서 익혀보자 vue instance부터 시작!" />
+    <option name="LAST_COMMIT_MESSAGE" value="하면서 익혀보자 vue instance부터 시작!" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="760" y="274" key="#Project_Structure" timestamp="1597207038143">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="760" y="274" key="#Project_Structure/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597207038143" />
-    <state x="794" y="258" key="CommitChangelistDialog2" timestamp="1599626459471">
+    <state x="794" y="258" width="846" height="971" key="CommitChangelistDialog2" timestamp="1606709690262">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="476" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599386721666" />
     <state x="794" y="258" key="CommitChangelistDialog2/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1599626459471" />
-    <state x="522" y="597" key="Github.ShareDialog" timestamp="1597135706443">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="522" y="597" key="Github.ShareDialog/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597135706443" />
-    <state x="382" y="404" key="Github.UntrackedFilesDialog" timestamp="1597135713166">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="382" y="404" key="Github.UntrackedFilesDialog/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597135713166" />
-    <state width="2517" height="482" key="GridCell.Tab.0.bottom" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.0.bottom/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.0.center" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.0.center/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.0.left" timestamp="1597226482611">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.0.left/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482611" />
-    <state width="2517" height="482" key="GridCell.Tab.0.right" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.0.right/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.1.bottom" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.1.bottom/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.1.center" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.1.center/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.1.left" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.1.left/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.1.right" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.1.right/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.2.bottom" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.2.bottom/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.2.center" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.2.center/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.2.left" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.2.left/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.2.right" timestamp="1597226482612">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.2.right/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482612" />
-    <state width="2517" height="482" key="GridCell.Tab.3.bottom" timestamp="1597226482613">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.3.bottom/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482613" />
-    <state width="2517" height="482" key="GridCell.Tab.3.center" timestamp="1597226482613">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.3.center/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482613" />
-    <state width="2517" height="482" key="GridCell.Tab.3.left" timestamp="1597226482613">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.3.left/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482613" />
-    <state width="2517" height="482" key="GridCell.Tab.3.right" timestamp="1597226482613">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="482" key="GridCell.Tab.3.right/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597226482613" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1599626462457">
+    <state x="794" y="258" width="846" height="971" key="CommitChangelistDialog2/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606709690262" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1606709693275">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="523" y="254" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599386733716" />
     <state x="872" y="432" key="Vcs.Push.Dialog.v2/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1599626462457" />
-    <state x="19" y="309" key="new project wizard" timestamp="1597135612008">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606709693275" />
+    <state x="916" y="382" key="new project wizard" timestamp="1606707457877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="19" y="309" key="new project wizard/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597135612008" />
-    <state x="311" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1597135695410">
+    <state x="916" y="382" key="new project wizard/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606707457877" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1606708725844">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="311" y="319" width="672" height="678" key="search.everywhere.popup/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1597135695410" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606708725844" />
   </component>
 </project>
