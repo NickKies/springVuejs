@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,17 +44,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.01.ES6BlockScoping,letAndConst.js">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="01.ES6BlockScoping,letAndConst.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Chapter01/ES6/01.ES6BlockScoping,letAndConst.js" working-dir="$PROJECT_DIR$/Chapter01/ES6">
       <method v="2" />
     </configuration>
@@ -106,7 +95,9 @@
       <workItem from="1599386590640" duration="189000" />
       <workItem from="1599451104830" duration="645000" />
       <workItem from="1599626400395" duration="662000" />
-      <workItem from="1606698001577" duration="7787000" />
+      <workItem from="1606698001577" duration="10145000" />
+      <workItem from="1606783358898" duration="1283000" />
+      <workItem from="1606787808350" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1597135767861</created>
@@ -248,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606709690912</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="오타있었네욤">
+      <created>1606709732130</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606709732130</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,21 +273,30 @@
     <MESSAGE value="10. Promise" />
     <MESSAGE value="다까묵었다.. 다시 시작.." />
     <MESSAGE value="하면서 익혀보자 vue instance부터 시작!" />
-    <option name="LAST_COMMIT_MESSAGE" value="하면서 익혀보자 vue instance부터 시작!" />
+    <MESSAGE value="오타있었네욤" />
+    <option name="LAST_COMMIT_MESSAGE" value="오타있었네욤" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="258" width="846" height="971" key="CommitChangelistDialog2" timestamp="1606709690262">
+    <state x="872" y="340" key="#Plugins" timestamp="1606791714107">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="340" key="#Plugins/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606791714107" />
+    <state x="960" y="434" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606783443632">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="960" y="434" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606783443632" />
+    <state x="794" y="258" width="846" height="971" key="CommitChangelistDialog2" timestamp="1606709731514">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="476" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599386721666" />
     <state x="794" y="258" key="CommitChangelistDialog2/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1599626459471" />
-    <state x="794" y="258" width="846" height="971" key="CommitChangelistDialog2/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606709690262" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1606709693275">
+    <state x="794" y="258" width="846" height="971" key="CommitChangelistDialog2/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606709731514" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1606709734190">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="523" y="254" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599386733716" />
     <state x="872" y="432" key="Vcs.Push.Dialog.v2/2560.360.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1599626462457" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606709693275" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/2560.360.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1606709734190" />
     <state x="916" y="382" key="new project wizard" timestamp="1606707457877">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
