@@ -14,7 +14,7 @@
 <div id="app" v-cloak>
     <message-list :items="messages" @delete="deleteMessage"></message-list>
     <form @submit.prevent="addMessage">
-        <textarea v-model="newMessage" placeholder="Leave a message"></textarea>
+        <textarea v-model="newMessage" placeholder="Leave a message" v-focus></textarea>
         <div>
             <button :disalbled="addDisabled" type="submit">Add</button>
         </div>
@@ -23,6 +23,7 @@
 <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
 <script type="module">
     import MessageList from './components/MessageList.js';
+    import './directives/focus.directive.js';
     let vm = new Vue({
         el: '#app',
         data: {
@@ -41,7 +42,8 @@
             addMessage (event) {
                 if ( !this.newMessage ) return;
                 let now = new Date();
-                this.message.push({id: now.getTime(), text: this.newMessage, createdAt: now})
+                this.messages.push({id: now.getTime(), text: this.newMessage, createdAt: now});
+                this.newMessage = '';
             },
             deleteMessage(message) {
                 this.messages.splice(this.messages.indexOf(message), 1)
