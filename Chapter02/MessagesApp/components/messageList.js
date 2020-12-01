@@ -1,9 +1,17 @@
+import MessageListItem from './messageListItem.js';
 export default {
     name: 'MessageList',
     template: `<ul>
-    <li v-for="item in items" :item="item">
-    {{ item.text }} - {{ item.createdAt }}
-    <button @click="deleteMessage(item)">X</button></li></ul>`,
+                    <message-list-item 
+                        v-for="item in items" 
+                        :item="item"
+                        :key="item.id"
+                        @delete="deleteMessage(item)"
+                    ></message-list-item>
+               </ul>`,
+    components: {
+        MessageListItem
+    },
     props: {
         items: {
             type: Array,

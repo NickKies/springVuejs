@@ -39,11 +39,9 @@
         },
         methods: {
             addMessage (event) {
-                if ( !this.newMessage ) {return;}
-                this.messages.push({
-                    text: this.newMessage, createdAt: new Date()
-                });
-                this.newMessage = '';
+                if ( !this.newMessage ) return;
+                let now = new Date();
+                this.message.push({id: now.getTime(), text: this.newMessage, createdAt: now})
             },
             deleteMessage(message) {
                 this.messages.splice(this.messages.indexOf(message), 1)
