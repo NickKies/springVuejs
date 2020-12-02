@@ -23,10 +23,13 @@
 <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
 <script type="module">
     import MessageList from './components/MessageList.js';
+    import lifecyleLogger from './mixins/lifecycle-logger.mixin.js';
     import './directives/focus.directive.js';
     import './filters/datetime.filter.js';
     let vm = new Vue({
         el: '#app',
+        name: 'MessagesApp',
+        mixins: [lifecyleLogger],
         data: {
             messages: [],
             newMessage: ''
