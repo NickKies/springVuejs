@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d1c2a0-8d5c-4282-a566-95086369028a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Appconfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageService.java" afterDir="false" />
     </list>
@@ -134,7 +130,7 @@
       <workItem from="1606871102696" duration="3643000" />
       <workItem from="1606887020862" duration="4346000" />
       <workItem from="1606956183827" duration="991000" />
-      <workItem from="1606960024674" duration="6675000" />
+      <workItem from="1606960024674" duration="8007000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1597135767861</created>
@@ -332,14 +328,20 @@
       <option name="project" value="LOCAL" />
       <updated>1606966030448</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="스프링 컨테이너">
+      <created>1606972176487</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1606972176487</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="03. prototype and inheritance" />
     <MESSAGE value="04. scope and this - java" />
     <MESSAGE value="04. scope and this - javascript" />
     <MESSAGE value="07. Keyword this" />
@@ -364,7 +366,8 @@
     <MESSAGE value="믹스인" />
     <MESSAGE value="플러그인" />
     <MESSAGE value="스프링 토대" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 토대" />
+    <MESSAGE value="스프링 컨테이너" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 컨테이너" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
