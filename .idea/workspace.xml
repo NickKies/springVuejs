@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="74d1c2a0-8d5c-4282-a566-95086369028a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter02/MessagesApp/components/messageList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/MessagesApp/components/messageList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter02/MessagesApp/components/messageListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/MessagesApp/components/messageListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter02/MessagesApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/MessagesApp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,8 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -46,6 +49,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.01.ES6BlockScoping,letAndConst.js">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="01.ES6BlockScoping,letAndConst.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Chapter01/ES6/01.ES6BlockScoping,letAndConst.js" working-dir="$PROJECT_DIR$/Chapter01/ES6">
       <method v="2" />
     </configuration>
@@ -103,7 +117,7 @@
       <workItem from="1606871102696" duration="3643000" />
       <workItem from="1606887020862" duration="4346000" />
       <workItem from="1606956183827" duration="991000" />
-      <workItem from="1606960024674" duration="1265000" />
+      <workItem from="1606960024674" duration="2883000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1597135767861</created>
@@ -287,14 +301,20 @@
       <option name="project" value="LOCAL" />
       <updated>1606889172264</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="플러그인">
+      <created>1606961661751</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606961661751</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="01. Objects and classes" />
     <MESSAGE value="02. Objects, properties and property attributes" />
     <MESSAGE value="03. prototype and inheritance" />
     <MESSAGE value="04. scope and this - java" />
@@ -319,6 +339,7 @@
     <MESSAGE value="지시자" />
     <MESSAGE value="필터" />
     <MESSAGE value="믹스인" />
-    <option name="LAST_COMMIT_MESSAGE" value="믹스인" />
+    <MESSAGE value="플러그인" />
+    <option name="LAST_COMMIT_MESSAGE" value="플러그인" />
   </component>
 </project>
