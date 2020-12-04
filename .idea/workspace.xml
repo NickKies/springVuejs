@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="74d1c2a0-8d5c-4282-a566-95086369028a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Message.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21649484" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
@@ -139,7 +141,7 @@
       <workItem from="1606871102696" duration="3643000" />
       <workItem from="1606887020862" duration="4346000" />
       <workItem from="1606956183827" duration="991000" />
-      <workItem from="1606960024674" duration="20621000" />
+      <workItem from="1606960024674" duration="23251000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1597135767861</created>
@@ -379,14 +381,20 @@
       <option name="project" value="LOCAL" />
       <updated>1607059973255</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Spring JDBC">
+      <created>1607061078571</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607061078571</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="01. Block scoping, let and const" />
     <MESSAGE value="02. classes" />
     <MESSAGE value="03. Enhanced object literals" />
     <MESSAGE value="04. ES6 Arrow function" />
@@ -411,7 +419,8 @@
     <MESSAGE value="타임리프" />
     <MESSAGE value="필터" />
     <MESSAGE value="jdbc 드라이버" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc 드라이버" />
+    <MESSAGE value="Spring JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring JDBC" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
