@@ -7,7 +7,11 @@
     <list default="true" id="74d1c2a0-8d5c-4282-a566-95086369028a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="FxmlFile" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -36,13 +40,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21649484" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
@@ -50,7 +58,7 @@
       <recent name="C:\Users\KYS\Documents\webProgramming\springVuejs\Chapter02\MessagesApp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.messages.Application" />
       <module name="Chapter03" />
@@ -86,6 +94,13 @@
     </configuration>
     <configuration name="08.Hoisting.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Chapter01/JavaDevloper'sView/08.Hoisting.js" working-dir="$PROJECT_DIR$/Chapter01/JavaDevloper'sView">
       <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Chapter03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.messages.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
@@ -129,7 +144,7 @@
       <workItem from="1606871102696" duration="3643000" />
       <workItem from="1606887020862" duration="4346000" />
       <workItem from="1606956183827" duration="991000" />
-      <workItem from="1606960024674" duration="9160000" />
+      <workItem from="1606960024674" duration="19480000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1597135767861</created>
@@ -341,15 +356,34 @@
       <option name="project" value="LOCAL" />
       <updated>1606973452479</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="spring mvc (springBoot)로 변경">
+      <created>1606974721799</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1606974721799</updated>
+    </task>
+    <task id="LOCAL-00032" summary="타임리프">
+      <created>1607046021459</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607046021459</updated>
+    </task>
+    <task id="LOCAL-00033" summary="필터">
+      <created>1607046265020</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607046265020</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="04. scope and this - javascript" />
-    <MESSAGE value="07. Keyword this" />
     <MESSAGE value="08. 호이스팅!" />
     <MESSAGE value="01. Block scoping, let and const" />
     <MESSAGE value="02. classes" />
@@ -367,13 +401,15 @@
     <MESSAGE value="콤포논토" />
     <MESSAGE value="컴포넌트2" />
     <MESSAGE value="지시자" />
-    <MESSAGE value="필터" />
     <MESSAGE value="믹스인" />
     <MESSAGE value="플러그인" />
     <MESSAGE value="스프링 토대" />
     <MESSAGE value="스프링 컨테이너" />
     <MESSAGE value="어노테이션으로 변형" />
-    <option name="LAST_COMMIT_MESSAGE" value="어노테이션으로 변형" />
+    <MESSAGE value="spring mvc (springBoot)로 변경" />
+    <MESSAGE value="타임리프" />
+    <MESSAGE value="필터" />
+    <option name="LAST_COMMIT_MESSAGE" value="필터" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
