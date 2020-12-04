@@ -7,8 +7,7 @@
     <list default="true" id="74d1c2a0-8d5c-4282-a566-95086369028a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/main/java/app/messages/MessageService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <workItem from="1606871102696" duration="3643000" />
       <workItem from="1606887020862" duration="4346000" />
       <workItem from="1606956183827" duration="991000" />
-      <workItem from="1606960024674" duration="23251000" />
+      <workItem from="1606960024674" duration="24351000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1597135767861</created>
@@ -388,14 +387,20 @@
       <option name="project" value="LOCAL" />
       <updated>1607061078571</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Hibernate">
+      <created>1607071902188</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607071902188</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="02. classes" />
     <MESSAGE value="03. Enhanced object literals" />
     <MESSAGE value="04. ES6 Arrow function" />
     <MESSAGE value="05. Default parameter value" />
@@ -420,7 +425,8 @@
     <MESSAGE value="필터" />
     <MESSAGE value="jdbc 드라이버" />
     <MESSAGE value="Spring JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring JDBC" />
+    <MESSAGE value="Hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hibernate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
