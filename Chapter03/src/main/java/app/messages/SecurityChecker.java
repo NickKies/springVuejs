@@ -14,12 +14,16 @@ public class SecurityChecker {
 
     private static final Logger logger = LoggerFactory.getLogger(SecurityChecker.class);
 
-    @Pointcut("execution(* app.messages..*.*(..))")
-    public void everyMessageMethod() {}
+    /*@Pointcut("execution(* app.messages..*.*(..))")
+    public void everyMessageMethod() {}*/
 
-    @Around("everyMessageMethod()")
+    @Pointcut("@annotation(SecurityCheck)")
+    public void checkMethodSecurity() {}
+
+    /*@Around("everyMessageMethod()")*/
+    @Around("checkMethodSecurity()")
     public Object checkSecurity (ProceedingJoinPoint joinPoint) throws Throwable {
-        logger.debug("시큐리티 메소드 확인...");
+        logger.debug("Checking method security...");
         // TODO 여기에 보안 검사 로직 구현하기
         Object result = joinPoint.proceed();
         return result;
