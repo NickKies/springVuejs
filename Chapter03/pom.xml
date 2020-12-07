@@ -47,7 +47,7 @@
                             <archiveBaseDirectory>${project.basedir}</archiveBaseDirectory>
                             <archive>
                                 <manifest>
-                                    <mainClass>app.messages.Application</mainClass>
+                                    <mainClass>app.messages.old.Application</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>

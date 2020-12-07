@@ -1,4 +1,4 @@
-package app.messages;
+package app.messages.old;
 
 public class MessageData {
     private String text;

@@ -1,4 +1,4 @@
-package app.messages;
+package app.messages.security;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -14,13 +14,9 @@ public class SecurityChecker {
 
     private static final Logger logger = LoggerFactory.getLogger(SecurityChecker.class);
 
-    /*@Pointcut("execution(* app.messages..*.*(..))")
-    public void everyMessageMethod() {}*/
-
-    @Pointcut("@annotation(SecurityCheck)")
+    @Pointcut("@annotation(app.messages.security.SecurityCheck)")
     public void checkMethodSecurity() {}
 
-    /*@Around("everyMessageMethod()")*/
     @Around("checkMethodSecurity()")
     public Object checkSecurity (ProceedingJoinPoint joinPoint) throws Throwable {
         logger.debug("Checking method security...");
