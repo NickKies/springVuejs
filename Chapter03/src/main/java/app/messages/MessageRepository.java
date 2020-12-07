@@ -2,6 +2,8 @@ package app.messages;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
@@ -16,7 +18,17 @@ import java.sql.*;
 @Component
 public class MessageRepository {
 
-    private final static Log logger = LogFactory.getLog(MessageRepository.class);
+    private SessionFactory sessionFactory;
+
+    public MessageRepository(SessionFactory sessionFactory) { this.sessionFactory = sessionFactory; }
+
+    public Message saveMessage(Message message) {
+        Session session = sessionFactory.getCurrentSession();
+        session.save(message);
+        return message;
+    }
+
+/*    private final static Log logger = LogFactory.getLog(MessageRepository.class);
 
     private NamedParameterJdbcTemplate jdbcTemplate;
 
@@ -42,7 +54,7 @@ public class MessageRepository {
         }
 
         return new Message(holder.getKey().intValue(), message.getText(), message.getCreatedDate());
-    }
+    }*/
 
     /*private DataSource dataSource;
 
