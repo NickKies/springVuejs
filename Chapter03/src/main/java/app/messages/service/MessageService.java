@@ -8,6 +8,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Component
 public class MessageService {
 
@@ -17,14 +19,11 @@ public class MessageService {
 
     public MessageService(MessageRepository repository) { this.repository = repository; }
 
-    @SecurityCheck
-    @Transactional(noRollbackFor = { UnsupportedOperationException.class })
-    public Message save(String text) {
-        Message message = repository.saveMessage(new Message(text));
-        logger.debug("새로운 메세지[id={}] 저장", message.getId());
-        updateStatistics();
-        return repository.saveMessage(new Message(text));
-    }
+    @Transactional(readOnly = true)
+    public List<Message> getMessage() { return repository.getMessages(); }
 
-    private void updateStatistics() { throw new UnsupportedOperationException("이 메소드는 아직 구현되지 않았습니다."); }
+    @SecurityCheck
+    @Transactional
+    public Message save(String text) { return repository.saveMessage(new Message(text)); }
+
 }
